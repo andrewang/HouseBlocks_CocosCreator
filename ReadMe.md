@@ -1,17 +1,6 @@
-# 使用Javascript编写cocos代码
-> 动态语言的灵活性使编码更加方便快速！
-```js
-var AnimationMediator = {
-    //背景循环
-    backgroundLoop (Sprite, pix) {
-        if (Sprite.node.x > -pix) {
-            Sprite.node.x-=1
-            Sprite.node.y-=1
-        } else {
-            Sprite.node.setPosition(0, 0)
-        }
-    }
-}
+# HouseBlock、cocoscreator-javascript版本
+仓库大小: 1.1MB
 
-module.exports = AnimationMediator
-```
+![loading](https://github.com/Saber2pr/MyWeb/raw/master/resource/HB_CCC.jpg)
+
+# [主仓库链接](https://github.com/Saber2pr/HouseBlocks)
